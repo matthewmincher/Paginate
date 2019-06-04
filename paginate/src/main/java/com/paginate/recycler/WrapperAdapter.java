@@ -53,7 +53,6 @@ class WrapperAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     @Override
     public void setHasStableIds(boolean hasStableIds) {
         super.setHasStableIds(hasStableIds);
-        wrappedAdapter.setHasStableIds(hasStableIds);
     }
 
     public RecyclerView.Adapter getWrappedAdapter() {
